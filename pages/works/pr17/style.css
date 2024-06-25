@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #0083e8;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image:url(img/8.png);
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+#lable{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 110px;
+    top: 40px;
+}
+
+.profile-info {
+    margin-left: 80px;
+}
+.profile-info h2 {
+    font-weight: 200;
+}
+
+
+.join-btn {
+    background-color: #4fc169;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.notification {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.photo-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.photo-card img {
+    width: 100%;
+    display: block;
+}
+
+.photo-info {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.likes span {
+    margin-right: 5px;
+}
+
+.heart {
+    color: red;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: grey;
+}
+#zagruzka {
+    width: 40px;
+    height: 40px;
+}

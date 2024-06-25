@@ -1,0 +1,20 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+section article {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid grey;
+}
+.price {
+    float: right;
+    margin: 10px;
+}
+section article p {
+    text-align: center;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
