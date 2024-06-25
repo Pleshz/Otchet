@@ -1,0 +1,68 @@
+.p1 {
+    text-align: center;
+}
+.p2 {
+    text-indent: 5px;
+}
+.p3 {
+    line-height: normal;
+}
+.p4 {
+    vertical-align: super;
+}
+.p5 {
+    word-spacing: 10px;
+}
+.p6 {
+    letter-spacing: 2px;
+}
+.p7 {
+    white-space: pre-line;
+}
+.p8 {
+    tab-size: 16;
+}
+.p9 {
+    text-transform: uppercase;
+}
+.p10 {
+    direction: rtl;
+}
+#p11 {
+    text-decoration: line-through;
+}
+#p12 {
+    font-style: oblique;
+}
+#p13 {
+    font-variant: small-caps;
+}
+#p14 {
+    font-weight: bold;
+}
+#p15 {
+    font-size: xx-large;
+}
+#p16 {
+    color: rgb(48, 215, 146);
+}
+#p17 {
+    color: brown;
+    font-size: smaller;
+}
+#p18 {
+    color: aqua;
+    word-spacing: 10px;
+}
+#p19 {
+    text-align:center;
+    color: chocolate;
+}
+#p20 {
+    color: rgb(231, 23, 127);
+    letter-spacing: 4px;
+}
+#p21 {
+    color: hotpink;
+    line-height: 120%;
+}

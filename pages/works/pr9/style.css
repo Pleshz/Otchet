@@ -1,0 +1,62 @@
+.line li{
+    display: inline-block;
+    padding: 20px;
+    background-color: pink;
+    margin-right: 30px;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    width: 160px;
+    border: 1px solid blue;
+    background-color: blue;
+    color:white;
+    padding: 5px;
+    margin: 5px;
+}
+.blocks {
+    margin: 30px;
+}
+.blocks div{
+    display: inline;
+    width: 40px;
+    padding: 20px;
+    background-color: red;
+}
+.links-markers{
+    background-color: black;
+    width: 160px;
+}
+.links-markers a {
+    display: list-item;
+    color:white;
+    margin: 10px;
+}
+.blocks .non {
+    display: none;
+}
+.post1 .image {
+    border-style: dashed;
+    border-color: orange;
+    width: 115px;
+    height: 80px;
+    background-image: url(../pr9/img/weather-sun.jpg);
+    float: left;
+    margin-right: 10px;
+}
+.post2 .image {
+    border-style: dashed;
+    border-color: orange;
+    width: 115px;
+    height: 80px;
+    background-image: url(../pr9/img/weather-sun.jpg);
+    float: right;
+}
+.post1 {
+    background: #930303;
+    color: white;
+}
+.post2 {
+    background: #930303;
+    color: white;
+}
